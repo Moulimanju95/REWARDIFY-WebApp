@@ -1,0 +1,94 @@
+.Uploadimg_container{
+  width: 95%;
+  padding: 20px;
+  border-radius: 12px ;
+  border: 1px solid #E0E0E0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+.docstorecard_header{
+  font-family: 'Inter';
+  font-size: var(--font-subheader);
+  font-weight: 600;
+  line-height: 29.05px;
+  text-align: left;
+}
+.docscancard_para{
+  font-family: 'Inter';
+  font-size: 12px;
+  width: 72%;
+  letter-spacing: 1px;
+  font-weight: 400;
+  line-height: 14.52px;
+  text-align: left;
+  color: #868C9A;
+}
+.docscancard{
+ margin-top: 10px;
+ display: flex;
+ width: 100%;
+ gap: 10%;
+}
+.docscancard h3{
+  font-family: 'Inter';
+  font-size: var(--font-subheader);
+  font-weight: 600;
+  line-height: 29.05px;
+  text-align: left;
+  color: #868C9A;
+}
+.docscancard p{
+  font-family: 'Inter';
+  font-size: 12px;
+  width: 65%;
+  letter-spacing: 1px;
+  font-weight: 400;
+  line-height: 14.52px;
+  text-align: left;
+  color: #BEBEBE;
+}
+.imageContainer {
+  width: 108px;
+  height: 98px;
+  border-radius: 100%;
+  background: #E0E9C2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  position: absolute;
+  top: -59px; 
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+
+
+.previewImage {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.imageOptions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.changeButton,
+.removeButton {
+  background: #ebece9;
+  color: #BEBEBE;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.removeButton {
+  background: #ebece9;
+}
+
