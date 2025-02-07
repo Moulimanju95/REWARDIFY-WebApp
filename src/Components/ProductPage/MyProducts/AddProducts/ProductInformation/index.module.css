@@ -1,0 +1,64 @@
+.ProductInformationCard{
+    width: 100%;
+    padding: 25px;
+    padding-bottom: 15px;
+    border-radius: 1px ;
+    border: 1px solid #E0E0E0;
+}
+.ProductInformation_header{
+    font-family: 'Inter';
+    font-size: var(--font-subheader);
+    font-weight: 600;
+    line-height: 24.2px;
+    text-align: left; 
+}
+.ProductInformationContent{
+    width: 95%;
+    padding: 25px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.form_control{
+    width: 100% ;
+}
+.form_control_area{
+   width: 100% ;
+   padding: 10px;
+   border: 1px solid #E0E0E0 ;
+   outline: none;
+   border-radius: 6px ;
+}
+.form_control_area:disabled{
+        background-color: #f0f0f0; 
+        color: #a0a0a0;
+}
+.form_control input{
+    height: fit-content ;
+    width: 100% ;
+    padding: 15px 20px ;
+    border-radius: 6px ;
+    outline: none ;
+    border: 1px solid #E0E0E0 ;
+}
+.form_control input:disabled{
+    background-color: #f0f0f0; 
+    color: #a0a0a0;
+}
+
+.productMan{
+    display: flex;
+    gap: 40px;
+}
+
+@media (max-width:613px) {
+    .ProductInformationContent{
+        width: 100%;
+        padding:0px;
+    }
+    .productMan{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+}

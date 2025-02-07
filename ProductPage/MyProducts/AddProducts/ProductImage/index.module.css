@@ -1,0 +1,44 @@
+.ProductImageCard{
+    width: 48%;
+    padding: 25px;
+    padding-bottom: 15px;
+    border-radius: 1px ;
+    border: 1px solid #E0E0E0;
+}
+.ProductImageCard[aria-disabled="true"]{
+    background-color: #f0f0f0; 
+    color: #a0a0a0;
+}
+.ProductImage_header{
+    font-family: 'Inter';
+    font-size: var(--font-subheader);
+    font-weight: 600;
+    line-height: 24.2px;
+    text-align: left;  
+}
+.ProductImageCard h3{
+    font-family: 'Inter';
+    font-size: var(--font-subheader);
+    font-weight: 600;
+    text-align: left;
+}
+.ProductImageCard p{
+    font-family: 'Inter';
+    font-size: var(--font-subpara);
+    font-weight: 400;
+    text-align: left;
+    color: #868C9A;
+}
+
+.imgContainer{
+    padding-top:13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:650px) {
+    .ProductImageCard{
+        width: 100%;
+    }
+}
