@@ -1,0 +1,78 @@
+.OrderPage{
+    width: 100%;
+    height: 100%;
+    padding:20px ;
+    background-color:#FFFFFF;
+   /*  overflow-y: auto; */
+}
+.OrderPageinHome{
+    width: 95%;
+    height: fit-content;
+    background-color:#FFFFFF;
+    overflow-y: auto;
+}
+.OrderPageinHome::-webkit-scrollbar{
+    display: none;
+}
+.OrderPage::-webkit-scrollbar{
+    display: none;
+}
+.OrderPage_header_search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.OrderPage_header{
+    display: flex;
+    flex-direction: column;
+}
+.OrderPage_header h4{
+    white-space: nowrap;
+    font-family: 'Inter';
+    font-size: var(--font-header);
+    font-weight: 600;
+    line-height: 29.05px;
+    text-align: left;
+}
+.OrderPage_header p{
+    white-space: nowrap;
+    font-family: 'Inter';
+    font-size: var(--font-subpara);
+    font-weight: 400;
+    line-height: 16.94px;
+    text-align: left;
+    color: #868C9A;
+}
+.OrderNavBar{
+    display: flex;
+    gap: 20px;
+}
+.OrderNavBar a{
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 10px;
+    white-space: nowrap;
+}
+.OrderNavBar a.active{
+    border-bottom: 2px solid rgb(125,159,32);
+}
+.OrderContents{
+   margin-top: 20px;
+   width: 100%;
+   height: auto;
+   display: grid;
+   grid-template-columns: auto auto;
+   gap: 20px;
+}
+
+@media (max-width:701px) {
+    .OrderContents{
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: auto;
+        gap: 20px;
+     }
+}

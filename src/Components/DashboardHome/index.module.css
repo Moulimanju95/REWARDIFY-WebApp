@@ -1,0 +1,47 @@
+.DashBoardPage{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    gap: 30px;
+    flex-direction: row;
+   
+}
+.DashBoardPage_payment_box{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 100%;
+    width: 40%;
+}
+.DashBoardPage_Order{
+    width: 60%;
+    background-color: white;
+    padding: 20px;
+   /*  overflow-y: auto; */
+}
+.order_show{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+/* .DashBoardPage_Order::-webkit-scrollbar{
+    display: none;
+} */
+@media (max-width:700px) {
+    .DashBoardPage{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        gap: 30px;
+        overflow: scroll;
+    }
+    .DashBoardPage_payment_box{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .DashBoardPage_Order{
+        width: 100%;
+    }
+}
